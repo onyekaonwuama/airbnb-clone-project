@@ -86,3 +86,23 @@ Coordinates task management, timelines, and progress tracking.
 - A **Booking** links a **User** to a **Property**
 - A **Review** is written by a **User** for a **Property**
 - A **Payment** is linked to a **Booking**
+
+## Feature Breakdown
+
+### User Management
+Allows users to register, log in, and manage their profile. This feature handles user roles such as guests and hosts, ensuring secure access to personal data and booking history.
+
+### Property Management
+Enables hosts to create, edit, and delete property listings. Each property includes details like location, price, description, and availability.
+
+### Booking System
+Allows guests to search for available properties and make bookings for selected dates. The system checks availability and handles reservation conflicts.
+
+### Review System
+Users can leave reviews and ratings for properties they’ve stayed in. This helps improve transparency and trust between hosts and guests.
+
+### Payment Integration
+Supports secure online payments for bookings. Integrates with third-party services to handle transactions and track payment status.
+
+### Search and Filtering
+Enables users to filter properties by location, price, availability, and more. This improves the user experience when browsing listings.
