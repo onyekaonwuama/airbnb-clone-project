@@ -106,3 +106,22 @@ Supports secure online payments for bookings. Integrates with third-party servic
 
 ### Search and Filtering
 Enables users to filter properties by location, price, availability, and more. This improves the user experience when browsing listings.
+
+## API Security
+
+### Authentication
+Only registered users can access certain API endpoints. We'll use secure token-based authentication (e.g., JWT) to verify identity.
+
+### Authorization
+Different roles (guest, host, admin) will have different permissions. This ensures users can only perform actions they're allowed to (e.g., only hosts can manage properties).
+
+### Rate Limiting
+Limits the number of API requests per user over a period of time to prevent abuse, such as brute-force login attempts or API spamming.
+
+### Data Validation and Sanitization
+All input will be validated and sanitized to prevent injection attacks and maintain data integrity.
+
+### Secure Payment Processing
+Sensitive data, especially related to payments, will be handled via third-party services using industry-standard encryption and security protocols.
+
+Security is essential to protect user data, maintain trust, and comply with data protection standards.
