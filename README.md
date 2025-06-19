@@ -40,3 +40,49 @@ Coordinates task management, timelines, and progress tracking.
 - **GraphQL**: Query language for efficient API data fetching.
 - **Docker**: Used for containerizing the app and running consistent environments.
 - **React (Optional)**: Library for building interactive UIs on the frontend.
+
+## Database Design
+
+### Entities and Fields
+
+**1. Users**
+- id
+- name
+- email
+- password
+- role
+
+**2. Properties**
+- id
+- user_id (FK)
+- title
+- description
+- price_per_night
+
+**3. Bookings**
+- id
+- user_id (FK)
+- property_id (FK)
+- start_date
+- end_date
+
+**4. Reviews**
+- id
+- user_id (FK)
+- property_id (FK)
+- rating
+- comment
+
+**5. Payments**
+- id
+- booking_id (FK)
+- amount
+- payment_method
+- status
+
+### Relationships
+- A **User** can own multiple **Properties**
+- A **Property** can have multiple **Bookings** and **Reviews**
+- A **Booking** links a **User** to a **Property**
+- A **Review** is written by a **User** for a **Property**
+- A **Payment** is linked to a **Booking**
