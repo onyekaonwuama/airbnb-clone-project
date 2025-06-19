@@ -32,3 +32,11 @@ Manages containerization, deployment, and CI/CD pipelines.
 
 ### Project Manager
 Coordinates task management, timelines, and progress tracking.
+
+## Technology Stack
+
+- **Django**: Web framework for backend development.
+- **PostgreSQL**: Relational database to store structured data.
+- **GraphQL**: Query language for efficient API data fetching.
+- **Docker**: Used for containerizing the app and running consistent environments.
+- **React (Optional)**: Library for building interactive UIs on the frontend.
