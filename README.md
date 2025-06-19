@@ -125,3 +125,14 @@ All input will be validated and sanitized to prevent injection attacks and maint
 Sensitive data, especially related to payments, will be handled via third-party services using industry-standard encryption and security protocols.
 
 Security is essential to protect user data, maintain trust, and comply with data protection standards.
+
+## CI/CD Pipeline
+
+CI/CD (Continuous Integration and Continuous Deployment) automates the process of building, testing, and deploying the application. This reduces human error and ensures rapid, reliable delivery of new features.
+
+### Tools and Workflow
+- **GitHub Actions**: Automates testing and deployment steps directly from GitHub.
+- **Docker**: Ensures consistent environments across development, testing, and production.
+- **Heroku / AWS / Vercel**: Can be used to host the deployed app.
+
+CI/CD helps the team catch issues early, deploy updates faster, and maintain a higher standard of code quality.
