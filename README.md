@@ -15,3 +15,20 @@ This project is a clone of the the AirBnB project for the pro backend course ofn
 2. Django
 3. MySQL
 4. GraphQL
+
+## Team Roles
+
+### Backend Developer
+Handles the server-side logic and API development using Django.
+
+### Frontend Developer
+Builds the user interface using HTML/CSS/JS or React.
+
+### Database Administrator (DBA)
+Designs and optimizes PostgreSQL database structures.
+
+### DevOps Engineer
+Manages containerization, deployment, and CI/CD pipelines.
+
+### Project Manager
+Coordinates task management, timelines, and progress tracking.
